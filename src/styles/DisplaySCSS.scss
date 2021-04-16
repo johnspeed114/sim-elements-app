@@ -1,0 +1,11 @@
+$primary-color: rgb(207, 233, 233);
+
+.container {
+    display: grid;
+    background-color: $primary-color;
+    width: 60vw;
+    height: 70vh;
+    border: 1px solid green;
+    margin: auto;
+    margin-top: 14em;
+}
