@@ -1,9 +1,10 @@
 import React from 'react';
-import Display from './components/Display';
+import Editor from './components/Editor';
+import './styles/App.scss';
 
 const App = () => (
-	<div className='App'> 
-		<Display/>
+	<div className="App">
+		<Editor />
 	</div>
 );
 
