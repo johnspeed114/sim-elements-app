@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Rows.scss';
 import Pixel from './Pixel';
 
-const Row = ({ width, selectedColor }) => {
+const Rows = ({ width, selectedColor }) => {
 	let pixels = [];
 	for (let x = 0; x < width; x++) {
 		pixels.push(<Pixel key={x} selectedColor={selectedColor} />);
@@ -10,4 +10,4 @@ const Row = ({ width, selectedColor }) => {
 	return <div className="row">{pixels}</div>;
 };
 
-export default Row;
+export default Rows;

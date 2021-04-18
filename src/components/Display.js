@@ -9,7 +9,7 @@ const Display = ({ width, height, selectedColor }) => {
 	}
 	return (
 		<div className="displayPanel">
-			<div class="pixels">{rows}</div>
+			<div className="pixels">{rows}</div>
 		</div>
 	);
 };
